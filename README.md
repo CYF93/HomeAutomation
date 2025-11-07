@@ -1,0 +1,8 @@
+Air-Con Control with Temperature & Humidity Monitoring:
+
+Key Hardware Components:
+1.) Raspberry Pi Pico W
+2.) DHT 11 sensor
+3.) IR receiver
+4.) IR transmitter
+
