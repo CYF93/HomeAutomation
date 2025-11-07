@@ -31,7 +31,7 @@ on_command = array.array("H",[]) #enter the on signal into the list
 
 off_command = array.array("H", []) #enter the off signal into the list
 
-ir_send = pulseio.PulseOut(board.GP3, frequency=38000, duty_cycle=2**15)
+ir_send = pulseio.PulseOut(board.GP3, frequency=38000, duty_cycle=2**15) #follow the board pin connected to IR transmitter's Data pin
 def control_AC(command,ir_send):
     ir_send.send(command)
     
