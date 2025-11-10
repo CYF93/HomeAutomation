@@ -10,3 +10,6 @@ Key Hardware Components:<br>
 3.) IR receiver<br>
 4.) IR transmitter
 
+Other requirements:<br>
+An Adafruit IO account is required. Create 4 feeds, temperature feed, humidity feed, on control feed and off control feed. 
+
